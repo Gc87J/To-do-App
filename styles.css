@@ -4,17 +4,6 @@
   padding: 0;
 }
 
-.nav-container{
-  margin-left: 16px;
-  height: 50px;
-}
-.nav-container a{
-
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  font-size: 1rem;
-}
 
 
 
@@ -24,16 +13,3 @@
 
 
 
-
-
-
-
-
-
-/*Footer*/
-
-.footer-container a{
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
