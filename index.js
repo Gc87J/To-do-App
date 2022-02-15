@@ -1,29 +1,28 @@
-const input = document.querySelector(".input");
+const addTo = document.querySelector(".addto");
+
+
+const newItem = document.createElement("div")
+
+
+addTo.appendChild(newItem);
+
+
 
 const addBtn = document.querySelector(".to-btn");
 
-const create = document.querySelector(".create");
+const input = document.querySelector(".input")
+
+addBtn.addEventListener("click", testing);
 
 
-
-addBtn.addEventListener("click", addToList);
-
-
-
-function addToList() {
-
-  
+function testing() {
   const para = document.createElement("p");
-
-  para.classList.add("red");
-
   
-  para.textContent = input.value;
+  para.textContent = input.value
 
-  document.body.appendChild(para);
+  newItem.appendChild(para);
 
-  
+  newItem.setAttribute("class", "red")
+  input.value = "";
 
 }
-
-

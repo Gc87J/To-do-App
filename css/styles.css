@@ -65,10 +65,15 @@ body {
   margin: 20px 30px;
   padding: 5px 20px 5px 20px;
   background-color: #fff;
-  width: 150PX;
+  width: auto;
   height: 31px;
   border-radius: 5px;
   border: none;
+}
+
+.addto {
+  border: 2px solid #000;
+  height: 100vh;
 }
 
 /*Footer*/
