@@ -66,23 +66,29 @@ body{
   font-weight: bold;
   font-size: 1rem;
   border: none;
+&:hover {
+  box-shadow: 5px 5px 10px #333;
+  transition: 1000ms;
+  background-color: #000;
+  color: #fff;
+}
 }
 
 .red{
   color: $blk-color;
   font-size: 1.2rem;
   margin: 20px 30px;
-  padding: 5px 20px 5px 20px;
-  background-color: #fff;
-  width: auto;
+  padding: 5px 25px 5px 10px;
+  background-color: #aaa;
+  width:fit-content;
   height: 31px;
-  border-radius: 5px;
+  border-radius: 3px;
   border: none;
 
 }
 
 .addto {
-  border: 2px solid #000;
+  // border: 2px solid #000;
   height: 100vh;
 }
 

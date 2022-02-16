@@ -14,15 +14,18 @@ const input = document.querySelector(".input")
 
 addBtn.addEventListener("click", testing);
 
-
 function testing() {
+
+
   const para = document.createElement("p");
+  para.setAttribute("class", "red");
   
-  para.textContent = input.value
-
+  para.textContent = input.value;
+  
   newItem.appendChild(para);
-
-  newItem.setAttribute("class", "red")
+  
+  
   input.value = "";
+
 
 }
