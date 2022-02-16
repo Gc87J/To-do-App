@@ -87,8 +87,8 @@ body {
 .testingBtn::before {
   font-family: "Font Awesome 5 free";
   font-weight: 900;
-  content: "";
-  margin-left: 160%;
+  content: "";
+  margin-left: 157%;
   font-size: 16px;
   cursor: pointer;
   text-rendering: optimizeLegibility;
