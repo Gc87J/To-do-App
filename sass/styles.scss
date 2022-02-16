@@ -56,7 +56,6 @@ body{
   border: none;
   height: 25px;
   width: 65%;
-  font-weight: bold;
 }
 
 
@@ -87,6 +86,24 @@ body{
 
 }
 
+.testingBtn{
+  // margin-left: 10%;
+  background-color: transparent;
+  border: none;
+  
+  
+}
+
+.testingBtn::before{
+  font-family: "Font Awesome 5 free"; 
+	font-weight: 900;
+  content: "\f00d";
+  margin-left: 160%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
 .addto {
   // border: 2px solid #000;
   height: 100vh;
@@ -95,7 +112,7 @@ body{
 
 
 /*Footer*/
-/*
+
 footer{
   background: #7897AB;
   display: flex;
@@ -110,6 +127,10 @@ footer{
   height:auto;
 }
 
+footer {
+  justify-content: center;
+}
+
 .footer-container {
   display: flex;
   height: 2.2rem;
@@ -119,15 +140,15 @@ footer{
 .footer-container a {
   text-decoration: none;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
 
 }
 
 .footer-container p {
   color: #000;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-left: 10px;
   align-items: center;
-}*/
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -48,7 +49,6 @@ body {
   border: none;
   height: 25px;
   width: 65%;
-  font-weight: bold;
 }
 
 .to-btn {
@@ -79,24 +79,40 @@ body {
   border: none;
 }
 
+.testingBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.testingBtn::before {
+  font-family: "Font Awesome 5 free";
+  font-weight: 900;
+  content: "";
+  margin-left: 160%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .addto {
   height: 100vh;
 }
 
 /*Footer*/
-/*
-footer{
+footer {
   background: #7897AB;
   display: flex;
-  align-items:flex-end ;
+  align-items: flex-end;
   margin-top: 30rem;
-
 }
 
 .bar {
   border: 2px solid #000;
   margin-left: 10px;
-  height:auto;
+  height: auto;
+}
+
+footer {
+  justify-content: center;
 }
 
 .footer-container {
@@ -108,15 +124,14 @@ footer{
 .footer-container a {
   text-decoration: none;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
-
 }
 
 .footer-container p {
   color: #000;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-left: 10px;
   align-items: center;
-}*//*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
