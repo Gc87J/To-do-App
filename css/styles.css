@@ -91,6 +91,7 @@ body {
   margin-left: 160%;
   font-size: 16px;
   cursor: pointer;
+  text-rendering: optimizeLegibility;
 }
 
 .addto {
